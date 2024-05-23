@@ -13,7 +13,7 @@ int main(void) {
     printf("Iniciando o programa\n");
 
     do {
-        // Exibindo o menu de opções
+        // Exibindo o ex2_filas de opções
         printf("\nMenu:\n");
         printf("1. Exemplo Pilhas\n");
         printf("2. Exemplo Filas\n");

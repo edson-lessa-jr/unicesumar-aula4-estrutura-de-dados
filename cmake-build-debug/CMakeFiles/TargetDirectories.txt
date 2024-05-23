@@ -1,3 +1,0 @@
-C:/Users/edson/CLionProjects/unicesumar-aula4/cmake-build-debug/CMakeFiles/unicesumar_aula4.dir
-C:/Users/edson/CLionProjects/unicesumar-aula4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/edson/CLionProjects/unicesumar-aula4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
