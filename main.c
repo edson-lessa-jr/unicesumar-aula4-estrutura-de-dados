@@ -2,6 +2,7 @@
 #include <locale.h>
 
 int ex1_pilhas();
+int ex2_filas();
 
 int main(void) {
     // Define a codificação de caracteres para UTF-8
@@ -15,7 +16,7 @@ int main(void) {
         // Exibindo o menu de opções
         printf("\nMenu:\n");
         printf("1. Exemplo Pilhas\n");
-        printf("2. Exemplo Calloc\n");
+        printf("2. Exemplo Filas\n");
         printf("0. Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
@@ -26,7 +27,7 @@ int main(void) {
                 ex1_pilhas();
             break;
             case 2:
-                // ex2_calloc();
+                 ex2_filas();
             break;
             case 0:
                 printf("Saindo do programa. Obrigado!\n");

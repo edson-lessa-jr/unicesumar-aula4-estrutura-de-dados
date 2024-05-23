@@ -61,6 +61,12 @@ build CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj: C_COMPILER__unices
   OBJECT_DIR = CMakeFiles\unicesumar_aula4.dir
   OBJECT_FILE_DIR = CMakeFiles\unicesumar_aula4.dir\ex1_pilhas
 
+build CMakeFiles/unicesumar_aula4.dir/ex2_filas/ex2_filas.c.obj: C_COMPILER__unicesumar_aula4_unscanned_Debug C$:/Users/edson/CLionProjects/unicesumar-aula4/ex2_filas/ex2_filas.c || cmake_object_order_depends_target_unicesumar_aula4
+  DEP_FILE = CMakeFiles\unicesumar_aula4.dir\ex2_filas\ex2_filas.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\unicesumar_aula4.dir
+  OBJECT_FILE_DIR = CMakeFiles\unicesumar_aula4.dir\ex2_filas
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target unicesumar_aula4
@@ -69,7 +75,7 @@ build CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj: C_COMPILER__unices
 #############################################
 # Link the executable unicesumar_aula4.exe
 
-build unicesumar_aula4.exe: C_EXECUTABLE_LINKER__unicesumar_aula4_Debug CMakeFiles/unicesumar_aula4.dir/main.c.obj CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj
+build unicesumar_aula4.exe: C_EXECUTABLE_LINKER__unicesumar_aula4_Debug CMakeFiles/unicesumar_aula4.dir/main.c.obj CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj CMakeFiles/unicesumar_aula4.dir/ex2_filas/ex2_filas.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\unicesumar_aula4.dir

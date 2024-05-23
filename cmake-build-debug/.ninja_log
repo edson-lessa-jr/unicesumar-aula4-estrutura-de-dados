@@ -1,20 +1,5 @@
 # ninja log v5
-2	128	7381314888103638	CMakeFiles/unicesumar_aula4.dir/main.c.obj	c74f13b02df0afa0
-9	153	7381314888363514	CMakeFiles/unicesumar_aula4.dir/01_pilhas/pilha.c.obj	1af74478eaa343a2
 5	112	7381316575153972	CMakeFiles/unicesumar_aula4.dir/main.c.obj	c74f13b02df0afa0
-12	133	7381316575383947	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-133	318	7381316577153928	unicesumar_aula4.exe	a613f9e70c1568bc
-4	129	7381318406353817	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-130	2654	7381318431546095	unicesumar_aula4.exe	a613f9e70c1568bc
-5	135	7381320159125176	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-136	328	7381320160989259	unicesumar_aula4.exe	a613f9e70c1568bc
-4	120	7381320464273589	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-121	304	7381320466033838	unicesumar_aula4.exe	a613f9e70c1568bc
-6	143	7381326924050992	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-144	1971	7381326942262101	unicesumar_aula4.exe	a613f9e70c1568bc
-5	135	7381332410327275	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-135	2010	7381332429025927	unicesumar_aula4.exe	a613f9e70c1568bc
-5	128	7381332962739205	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
-128	314	7381332964539205	unicesumar_aula4.exe	a613f9e70c1568bc
+9	153	7381314888363514	CMakeFiles/unicesumar_aula4.dir/01_pilhas/pilha.c.obj	1af74478eaa343a2
 4	130	7381334099967164	CMakeFiles/unicesumar_aula4.dir/ex1_pilhas/pilha.c.obj	c2a2fccaad9bbee
 131	318	7381334101797258	unicesumar_aula4.exe	a613f9e70c1568bc
