@@ -5,7 +5,7 @@
 
 #define MAX_URL_LENGTH 256
 
-/*
+/**
     Esta função exibe a URL atual sendo acessada pelo usuário.
 
     Parâmetros:
@@ -18,7 +18,7 @@ void exibirNavegacaoAtualFila(char *atual) {
     printf("Voce esta acessando %s\n\n", atual);
 }
 
-/*
+/**
     Esta função inicializa uma fila, configurando seus ponteiros de frente e trás como NULL e
     definindo o tamanho da fila como 0.
 
@@ -34,7 +34,7 @@ void initFila(Fila *fila) {
     fila->size = 0;
 }
 
-/*
+/**
     Esta função adiciona uma URL à fila.
 
     Parâmetros:
@@ -43,7 +43,7 @@ void initFila(Fila *fila) {
 
     Retorno:
         A função não possui retorno.
-*/
+**/
 void incluirNaFila(Fila *fila, const char *url) {
     // Aloca memória para o novo nó
     Node *newNode = (Node *) malloc(sizeof(Node));
@@ -62,7 +62,7 @@ void incluirNaFila(Fila *fila, const char *url) {
 }
 
 
-/*
+/**
     Esta função remove e retorna a URL da frente da fila.
 
     Parâmetros:
@@ -110,7 +110,7 @@ int isEmpty(Fila *fila) {
     return fila->size == 0;
 }
 
-/*
+/**
     Esta função imprime todas as URLs na fila.
 
     Parâmetros:
@@ -136,7 +136,7 @@ void printFila(Fila *fila) {
 }
 
 
-/*
+/**
     Esta função importa URLs de um arquivo e as adiciona à fila de histórico de navegação.
 
     Parâmetros:
@@ -178,7 +178,7 @@ void importarHistoricoNavegacao(Fila *fila, char *atual) {
 }
 
 
-/*
+/**
     Esta função simula um navegador web básico usando uma fila para armazenar o histórico de navegação.
 
     A cada iteração do loop principal, o usuário tem a opção de navegar para uma URL,

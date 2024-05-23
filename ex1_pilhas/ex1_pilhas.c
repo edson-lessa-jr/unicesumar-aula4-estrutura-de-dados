@@ -154,7 +154,7 @@ void carregarUrlsDoArquivo(Pilha *pilha, const char *urlAtual, const char *nomeA
 }
 
 
-/*
+/**
     Esta função verifica se a pilha está vazia.
 
     Parâmetros:
@@ -168,7 +168,7 @@ int vazio(Pilha *pilha) {
     return pilha->top == -1;
 }
 
-/*
+/**
     Esta função exibe o histórico armazenado na pilha.
 
     Parâmetros:
@@ -185,7 +185,7 @@ void exibirHistorico(Pilha *pilha) {
     }
 }
 
-/*
+/**
     Esta função exibe a URL atual.
 
     Parâmetros:
@@ -199,7 +199,7 @@ void exibirNavegacaoAtual(char *atual) {
     printf("Voce esta acessando %s\n\n", atual);
 }
 
-/*
+/**
     Esta função implementa o menu de interação com o usuário para manipulação de uma pilha de URLs.
 
     Funcionamento:

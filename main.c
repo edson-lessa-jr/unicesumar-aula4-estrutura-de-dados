@@ -11,52 +11,30 @@ int main(void) {
     printf("Iniciando o programa\n");
 
     do {
-        // Exibindo o ex2_filas de opções/*
-        Este programa demonstra a utilização das estruturas de pilhas e filas para navegação
-        em um navegador web simulado
-        .
-
-    Bibliotecas:
-        -stdio.h
-        :
-        Biblioteca padrão de entrada e saída
-        .
-        -locale.h
-        :
-        Biblioteca para manipulação de localidade
-        .
-
-        Funções Principais
-        :
-        -main
-        :
-        Função principal
-        do programa, responsável por
-        exibir o menu de opções e chamar as funções correspondentes
-        .
-
-    Parâmetros:
-        -Nenhum.
-
-                Retorno
-        :
-        -0
-        :
-        Indica que o programa foi executado com sucesso
-        .
-
-    Observações:
-        -Este
-        programa utiliza a codificação de caracteres UTF
-        -8
-        para suportar caracteres especiais
-        .
-        *
-        /
+        // Exibindo o ex2_filas de opções
 
 #include <stdio.h> // Inclui a biblioteca padrão de entrada e saída
 #include <locale.h> // Inclui a biblioteca para manipulação de localidade
 #include "navegacao.h" // Inclui o cabeçalho da estrutura de navegação
+/**
+Este programa demonstra a utilização das estruturas de pilhas e
+ filas para navegação em um navegador web simulado.
+
+Bibliotecas:
+    -stdio.h: Biblioteca padrão de entrada e saída.
+    -locale.h: Biblioteca para manipulação de localidade.
+
+Funções Principais:
+-main: Função principal do programa, responsável por exibir
+o menu de opções e chamar as funções correspondentes.
+
+Parâmetros:
+-Nenhum. return =0 :Indica que o programa foi executado com sucesso.
+
+Observações:
+-Este programa utiliza a codificação de caracteres UTF-8
+ para suportar caracteres especiais.
+*/
 
         int main(void) {
             // Define a codificação de caracteres para UTF-8

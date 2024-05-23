@@ -1,4 +1,4 @@
-/*
+/**
 Este arquivo de cabeçalho define a interface para manipulação de pilhas de URLs.
 
     Estrutura de Dados:

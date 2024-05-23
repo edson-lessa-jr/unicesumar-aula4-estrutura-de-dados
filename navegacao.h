@@ -1,4 +1,4 @@
-/*
+/**
 Este arquivo de cabeçalho define a estrutura e as funções relacionadas à navegação
     em um navegador web, utilizando pilhas e filas para manter o histórico de navegação.
 
