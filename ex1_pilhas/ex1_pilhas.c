@@ -2,15 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-
-#define TAMANHO_MAX_URL 256
-#define TAMANHO_INICIAL 10
-
-typedef struct {
-    char **urls;
-    int top;
-    int capacidade;
-} Pilha;
+#include "ex1_pilhas.h"
 
 // Funcao para inicializar a pilha
 Pilha *inicializaPilha() {
@@ -40,7 +32,7 @@ char *desempilha(Pilha *pilha) {
 }
 
 // Funcao para carregar URLs de um arquivo
-void carregarUrlsDoArquivo(Pilha **top, const char *nomeArquivo) {
+void carregarUrlsDoArquivo(Pilha *pilha, const char *urlAtual, const char *nomeArquivo) {
     char cwd[1024];
     if (getcwd(cwd, sizeof(cwd)) != NULL) {
         printf("Diretorio de trabalho atual: %s\n", cwd);
@@ -56,7 +48,16 @@ void carregarUrlsDoArquivo(Pilha **top, const char *nomeArquivo) {
     char url[TAMANHO_MAX_URL];
     while (fgets(url, sizeof(url), arquivo) != NULL) {
         url[strcspn(url, "\n")] = '\0'; // Remove o caractere de nova linha
-        empilha(top, url);
+        if ((strstr(url, "http://")||strstr(url, "https://")) && (strstr(url, ".com")||strstr(url, ".br")||strstr(url, ".org"))) {
+            if (strlen(urlAtual) > 0) {
+                empilha(pilha, urlAtual);
+            }
+            strcpy(urlAtual, url);
+            exibirNavegacaoAtual(urlAtual);
+        } else {
+            printf("URL invalida: %s\n",url);
+        }
+        //empilha(pilha, urlAtual);
     }
 
     fclose(arquivo);
@@ -67,7 +68,7 @@ int vazio(Pilha *pilha) {
     return pilha->top == -1;
 }
 
-// Funcao para exibir o histórico
+// Funcao para exibir o historico
 void exibirHistorico(Pilha *pilha) {
     printf("\nImprimindo o conteudo da pilha\n");
     for (int i = pilha->top; i >= 0; i--) {
@@ -126,7 +127,8 @@ int ex1_pilhas() {
                 exibirHistorico(pilha);
                 break;
             case 5:
-                carregarUrlsDoArquivo(&pilha, "../urls.txt");
+                carregarUrlsDoArquivo(pilha, atual, "../urls.txt");
+                desempilha(pilha);
                 break;
             case 0:
                 printf("Saindo...\n");

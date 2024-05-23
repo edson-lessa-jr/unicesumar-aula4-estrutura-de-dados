@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
-int ex1_pilhas();
-int ex2_filas();
+#include "navegacao.h"
 
 int main(void) {
     // Define a codificação de caracteres para UTF-8

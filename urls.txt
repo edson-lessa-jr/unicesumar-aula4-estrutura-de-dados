@@ -1,6 +1,6 @@
 http://www.google.com
 http://www.nasa.org
-http://example.net
+http://example.com
 https://www.folha.uol.com.br/
 https://www.gov.br/pt-br
 https://www.youtube.com/
@@ -15,7 +15,7 @@ https://www.magazineluiza.com.br/
 https://www.americanas.com.br/
 https://www.casasbahia.com.br/
 https://www.netshoes.com.br/
-https://dle.rae.es/submarino
+https://dle.rae.com/submarino
 https://www.globo.com/
 https://www.bb.com.br/site/
 https://www.santander.com.br/
